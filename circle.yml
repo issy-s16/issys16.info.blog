@@ -1,3 +1,4 @@
 test:
   override:
    - echo Hello World
+   - ssh issy_s16@issys16.info -P 22 && touch sample.txt
