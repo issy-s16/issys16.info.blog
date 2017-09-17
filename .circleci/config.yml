@@ -4,6 +4,9 @@ jobs:
     matchine: true
     steps:
       - checkout
+      - run:
+        name: echo test
+        command: 'echo test'
 workflows:
   version: 2
   build_and_test:
