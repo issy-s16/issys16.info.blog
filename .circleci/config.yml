@@ -4,15 +4,8 @@ jobs:
     matchine: true
     steps:
       - checkout
-  test:
-    machine: true
-    steps:
-      - run: echo test
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-      - test:
-        requires:
-          - build
