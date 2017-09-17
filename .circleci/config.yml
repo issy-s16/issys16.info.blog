@@ -5,8 +5,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: echo test
-          command: 'echo test'
+          name: ssh issys16.info
+          command: 'ssh issy_s16@issys16.info'
 workflows:
   version: 2
   build_and_test:
