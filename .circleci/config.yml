@@ -1,8 +1,7 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: python:3.4.2
+    matchine: true
     steps:
       - checkout
   test:
