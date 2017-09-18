@@ -5,12 +5,15 @@ jobs:
     machine: true
     steps:
       - checkout
+      # hugo theme checkout
+      - run:
+          command: 'git clone --recursive https://github.com/spf13/hugoThemes.git themes'
       # hugo install
       - run: 
           command: 'go get -u -v github.com/spf13/hugo'
       # hugo build
       - run:
-          command: 'hugo'
+        command: 'hugo -t simple-a'
       - save_cache:
           key: cache-{{ epoch }}
           paths:
