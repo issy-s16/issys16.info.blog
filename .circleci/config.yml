@@ -8,7 +8,7 @@ jobs:
           command: 'ls -l'
       # hugo build
       - run:
-        command: 'hugo -D'
+          command: 'hugo -D'
       - run:
           command: 'ls -l'
 workflows:
