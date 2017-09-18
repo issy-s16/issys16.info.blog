@@ -6,6 +6,7 @@ jobs:
       - checkout
       - run:
           command: 'ls -l'
+      - run:
           command: 'pwd'
 workflows:
   version: 2
