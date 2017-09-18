@@ -13,7 +13,7 @@ hasCJKLanguage = true
 [params]
     name = "issys16.info"
     description = "日々の開発ログ"
-    bio = "日々の開発ログ"
+    bio = "I am a web developer."
 
     # Enter optionally your twitter account
     twitter = "issy_s16"
@@ -29,7 +29,7 @@ hasCJKLanguage = true
     # Disable duoshuo comments by set `enableDuoshuo = "false"`
     enableDuoshuo = false
 
-    enableGithubIssuesTips = true
+    enableGithubIssuesTips = false
 
     # Enable googleAnalytics
     enableGoogleAnalytics = false
@@ -45,14 +45,14 @@ hasCJKLanguage = true
     home = "home"
     about = "about"
     archive = "archive"
-    subscribe = ""
+    subscribe = "subscribe"
     tags = "tags"
 
     # Pagination links
     olderPosts = "older"
     newerPosts = "newer"
     readMore = "read more"
-    copyright = ""
+    copyright = "2017 issy_s16"
 
     # Sharing options and author information in posts
     aboutAuthor = "I am so interesting."
