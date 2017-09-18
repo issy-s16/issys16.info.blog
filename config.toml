@@ -1,25 +1,76 @@
-baseurl = "http://issys16.info"
+# Site settings
+baseurl = "http://issys16.info/"
+
+# HTML Language Code Reference, such as en, zh-cn
 languageCode = "ja"
 title = "issys16.info"
-theme = "hemingway"
-copyright = "&copy; <a href=\"https://github.com/issy-s16\">Shogo Ishikura</a> 2017"
-disqusShortname = "http-issys16-info"
+theme = "hugo-theme-cactus-plus"
+
+# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+hasCJKLanguage = true
 
 [params]
+    name = "issys16.info"
+    description = "daily log"
+    bio = "daily log"
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
+    # Enter optionally your twitter account
+    twitter = "issy_s16"
+    enableRSS = false
 
-[[params.social]]
-url = "https://github.com/issy-s16"
-fa_icon = "fa-github"
+    # Disqus comment
+    disqusShortname = "http-issys16-info"
+    # Disable disqus comments by set `enableDisqus = "false"`
+    enableDisqus = true
 
-[[params.social]]
-url = "https://twitter.com/issy_s16"
-fa_icon = "fa-twitter"
+    # Duoshuo comment
+    duoshuoShortname = "your_duoshuo_short_name"
+    # Disable duoshuo comments by set `enableDuoshuo = "false"`
+    enableDuoshuo = false
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+    enableGithubIssuesTips = true
+
+    # Enable googleAnalytics
+    enableGoogleAnalytics = false
+
+    # Add custom assets with their paths relative to the static folder
+    customCSS = []
+    customJS  = []
+
+    # The variables below are optionally too and can be used to
+    # translate or customize each string of the theme.
+
+    # Navigation links
+    home = "/"
+    about = "/about"
+    archive = "/archive"
+    subscribe = ""
+    tags = "/tags"
+
+    # Pagination links
+    olderPosts = ""
+    newerPosts = ""
+    readMore = ""
+    copyright = ""
+
+    # Sharing options and author information in posts
+    aboutAuthor = "I am so interesting."
+    tweet = ""
+    share = ""
+
+    # 404 page
+    title404 = ""
+    subtitle404 = ""
+
+    # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+    iconFont = "font-awesome"
+
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = ""
+
+# Add additional social link entries underneath
+[social]
+    facebook-square = "ishikura.shogo"
+    twitter-square = "issy_s16"
+    github-square = "issy-s16"
