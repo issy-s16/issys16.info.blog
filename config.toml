@@ -1,94 +1,25 @@
-baseURL = "http://issys16.info/"
+baseurl = "http://issys16.info"
 languageCode = "ja"
-title = "issy_s16.info"
-theme = "hugo-nuo"
-enableRobotsTXT = true
-pygmentsuseclasses = true
-PygmentsCodeFences = true
-canonifyurls = true
-
-# Disqus Username
+title = "issys16.info"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/issy-s16\">Shogo Ishikura</a> 2017"
 disqusShortname = "http-issys16-info"
+googleAnalytics = ""
 
-# Google Analytics UA number
-# googleAnalytics = "UA-XXXXXXXX-X"
-
-# Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
-
-# Initial site menu, you can extend menu with content.
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-
-[[menu.main]]
-  name = "Works"
-  weight = 30
-  identifier = "works"
-  url = "https://github.com/issy-s16"
-
-# Add your own params here
 [params]
-  author = "issy_s16"
-  avatar = "/img/avatar.jpg"
-  seotitle = "issy_s16"
-  subtitle = "daily log"
-  description = ""
-  paginate = 10
 
-  # Choose your social networks
-  email = "ishikura.shogo@gmail.com"
-  github = "issy-s16"
-  twitter = "issy_s16"
-  # linkedin = "linkedin_username"
-  # weibo = "weibo_username"
-  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
-  facebook = "shogo.ishikura"
-  # google = "googlplus_id_number"
-  # instagram = "instagram_username"
-  # youtube = "youtube_username"
-  # vimeo = "vimeo_username"
-  medium = "issy_s16"
-  # quora = "quora_username"
-  # pinterest = "pinterest_username"
-  # dribbble = "dribbble_username"
-  # behance = "behance_username"
-  # jsfiddle = "jsfiddle_username"
-  # codepen = "codepen_username"
-  # zhihu = "zhihu_username"
-  # douban = "douban_username"
-  # bilibili = "bilibili_id_number"
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
 
-  # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+[[params.social]]
+url = "https://github.com/issy-s16"
+fa_icon = "fa-github"
 
-  # Google Webmaster
-  # https://www.google.com/webmasters/
-  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+[[params.social]]
+url = "https://twitter.com/issy_s16"
+fa_icon = "fa-twitter"
 
-  # Bing Webmaster
-  # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
-
-  # Baidu Webmaster (China Only)
-  # https://zhanzhang.baidu.com/
-  # baiduSiteVerification = "MZ23SPxxfa"
-
-  # Sogou Webmaster (China Only)
-  # http://zhanzhang.sogou.com/
-  # sogouSiteVerification = "m2jktMQTZm"
-
-  # 360 Webmaster (China Only)
-  # http://zhanzhang.so.com/
-  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
-
-  # Baidu Tongji (China Only)
-  # https://tongji.baidu.com/
-  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
-
-  # ICP Number (China Only)
-  # ICP = "苏ICP备16005986号-2"
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
