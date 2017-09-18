@@ -13,7 +13,7 @@ jobs:
           command: 'go get -u -v github.com/spf13/hugo'
       # hugo build
       - run:
-        command: 'hugo -t simple-a'
+          command: 'hugo -t simple-a'
       - save_cache:
           key: cache-{{ epoch }}
           paths:
