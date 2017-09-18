@@ -11,8 +11,6 @@ jobs:
       # hugo build
       - run:
           command: 'hugo -D'
-      - run:
-          command: 'ls -l'
       - save_cache:
           key: cache-{{ epoch }}
           paths:
@@ -28,6 +26,8 @@ jobs:
           command: 'pwd'
       - run:
           command: 'ls -l'
+      - run:
+          command: 'rsync public/ issy_s16@issys16.info:/home/issy_s16/tmp'
 workflows:
   version: 2
   build_and_test:
