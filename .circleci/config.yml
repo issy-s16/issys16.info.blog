@@ -4,11 +4,14 @@ jobs:
     machine: true
     steps:
       - checkout
+  pre-build:
+    machine: true
+    steps: 
       - run:
-          name: ssh issys16.info
-          command: 'ssh issy_s16@issys16.info ls -l'
+          command: 'ls -l'
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
+      - pre-build
