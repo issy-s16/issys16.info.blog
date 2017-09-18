@@ -12,7 +12,7 @@ jobs:
           command: 'ls -l'
       # hugo theme checkout
       - run:
-          command: 'cd themes && git clone https://github.com/laozhu/hugo-nuo'
+          command: 'cd themes && git clone https://github.com/tanksuzuki/hemingway.git'
       # hugo build
       - run:
           command: 'hugo'
