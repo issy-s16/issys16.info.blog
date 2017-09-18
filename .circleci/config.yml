@@ -18,11 +18,12 @@ jobs:
           paths:
             - ~
   deploy:
-    working_directory: ~/
+    working_directory: ~
     machine: true
     steps:
       - restore_cache:
-          key: cache
+          keys:
+            - cache
       # run rsync
       - run:
           command: 'pwd'
