@@ -12,8 +12,8 @@ hasCJKLanguage = true
 
 [params]
     name = "issys16.info"
-    description = "daily log"
-    bio = "daily log"
+    description = "日々の開発ログ"
+    bio = "日々の開発ログ"
 
     # Enter optionally your twitter account
     twitter = "issy_s16"
@@ -42,16 +42,16 @@ hasCJKLanguage = true
     # translate or customize each string of the theme.
 
     # Navigation links
-    home = "/"
-    about = "/about"
-    archive = "/archive"
+    home = "home"
+    about = "about"
+    archive = "archive"
     subscribe = ""
-    tags = "/tags"
+    tags = "tags"
 
     # Pagination links
-    olderPosts = ""
-    newerPosts = ""
-    readMore = ""
+    olderPosts = "older"
+    newerPosts = "newer"
+    readMore = "read more"
     copyright = ""
 
     # Sharing options and author information in posts
@@ -71,6 +71,6 @@ hasCJKLanguage = true
 
 # Add additional social link entries underneath
 [social]
-    facebook-square = "ishikura.shogo"
-    twitter-square = "issy_s16"
-    github-square = "issy-s16"
+    facebook-square = "https://www.facebook.com/shogo.ishikura"
+    twitter-square = "https://twitter.com/issy_s16"
+    github-square = "https://github.com/issy-s16"
