@@ -27,7 +27,7 @@ jobs:
       - run:
           command: 'ls -l'
       - run:
-          command: 'rsync public/ issy_s16@issys16.info:/home/issy_s16/tmp'
+          command: 'rsync -ar public/ issy_s16@issys16.info:/home/issy_s16/tmp'
 workflows:
   version: 2
   build_and_test:
