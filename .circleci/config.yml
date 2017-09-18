@@ -15,7 +15,7 @@ jobs:
           command: 'hugo -D'
       - run:
           command: 'ls -l'
-      - save_cache
+      - save_cache:
           key: cache-{{ epoch }}
           paths:
             - ~
@@ -34,7 +34,9 @@ workflows:
   version: 2
   build_and_test:
     jobs:
-      - build
+      - build:
+          filters:
+              only: master
       - deploy:
           requires:
             - build
