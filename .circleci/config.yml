@@ -26,7 +26,7 @@ jobs:
           key: cache
       # run rsync
       - run:
-          command: 'rsync -ar public/ deployuser@issys16.info:/usr/share/nginx/html'
+          command: 'rsync -arv public/ deployuser@issys16.info:/usr/share/nginx/html'
 workflows:
   version: 2
   build_and_test:
