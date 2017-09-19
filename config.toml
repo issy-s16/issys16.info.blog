@@ -52,7 +52,7 @@ hasCJKLanguage = true
     olderPosts = "older"
     newerPosts = "newer"
     readMore = "read more"
-    copyright = "2017 issy_s16"
+    copyright = "&copy;2017 Shogo Ishikura"
 
     # Sharing options and author information in posts
     aboutAuthor = "I am so interesting."
