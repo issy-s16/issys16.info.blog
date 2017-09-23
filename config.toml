@@ -13,7 +13,7 @@ hasCJKLanguage = true
 [params]
     name = "issys16.info"
     description = "日々の開発ログ"
-    bio = "I am a web developer."
+    bio = "都内のプログラマの日々のログ"
 
     # Enter optionally your twitter account
     twitter = "issy_s16"
