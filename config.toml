@@ -4,7 +4,7 @@ baseurl = "http://issys16.info/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "ja"
 title = "issys16.info"
-theme = "hugo_theme_robust"
+theme = "hugo-theme-cactus-plus"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
