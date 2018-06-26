@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://issys16.info/"
+baseurl = "https://issys16.info/blog/"
 
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "ja"
