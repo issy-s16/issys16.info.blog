@@ -15,7 +15,7 @@ jobs:
           command: 'git submodule init && git submodule update'
       # hugo build
       - run:
-          command: 'hugo'
+          command: '/home/linuxbrew/.linuxbrew/Cellar/hugo'
       - save_cache:
           key: cache-{{ epoch }}
           paths:
