@@ -7,7 +7,7 @@ jobs:
       - checkout
       # hugo install
       - run: 
-          command: 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+          command: 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"'
       - run: 
           command: 'brew install hugo'
       # submodule init
